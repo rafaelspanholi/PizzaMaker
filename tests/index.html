@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Test Suite</title>
+<link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.19.3.css">
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture">
+    <div class="maker">
+      <input type="radio" id="radioBase1"/>
+      <input type="radio" id="radioBase2"/>
+      <input type="radio" id="radioBase3"/>
+      <input type="radio" id="radioRedSauce">
+      <input type="radio" id="radioYellowSauce">
+      <input type="checkbox" id="checkboxNon-veg">
+      <input type="checkbox" id="checkboxVeg">
+      
+      <button id="buttonCreate" />
+    </div>
+    <div class="pizza">
+      <img id="imageBase" />
+      <img id="imageRedSauce" class="hidden" />
+      <img id="imageYellowSauce"  class="hidden"/>
+      <img id="imageVegNon-veg"  class="hidden"/>
+      <img id="imageVeg"  class="hidden"/>
+      <img id="imageNon-veg"  class="hidden"/>
+      <button id="buttonBack" />
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/qunit/qunit-2.19.3.js"></script>
+  <script type="module" src="./suite.js"></script>
+</body>

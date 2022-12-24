@@ -1,0 +1,12 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "es2022",
+        "lib": ["ES2022", "DOM"]
+    },
+    "typeAcquisition": {
+        "enable": true,
+        "include": ["qunit"]
+    }
+}
